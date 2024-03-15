@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(135deg, #94f37a, #a9eef0);
+    margin: 0;
+    padding: 0;
+    color: #090909;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #00fdf5; /* Cambiar el color azul a uno más subido */
+    border-radius: 10px; /* Ajustar el radio del borde si es necesario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header, main {
+    background-color: #09aeee; /* Cambiar el color de fondo de las secciones de encabezado y contenido a blanco */
+    border-radius: 10px; /* Ajustar el radio del borde si es necesario */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.add-task {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #0b0b0b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: #000000;
+}
+.add-task {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fcfafa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
